@@ -17,8 +17,8 @@ app.use(passport.session({
   saveUninitialized: true
 }));
 
-const CLIENT_ID = '229MMX';
-const CLIENT_SECRET = 'af3e0a09671788e3deaa65f7a6e45708';
+const CLIENT_ID = '<YOUR_CLIENT_ID>';
+const CLIENT_SECRET = '<YOUR_CLIENT_SECRET>';
 
 app.use(passport.initialize());
 

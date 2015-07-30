@@ -2,7 +2,7 @@
   "name": "passport-fitbit-oauth2",
   "version": "1.0.0",
   "description": "An OAuth2 passport strategy for Fitbit",
-  "main": "server.js",
+  "main": "lib/index.js",
   "directories": {
     "example": "examples"
   },
