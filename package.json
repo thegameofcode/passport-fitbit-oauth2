@@ -12,7 +12,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IGZgustavomarin/passport-fitbit-oauth2.git"
+    "url": "git+https://github.com/thegameofcode/passport-fitbit-oauth2.git"
   },
   "keywords": [
     "passport",
@@ -22,7 +22,7 @@
   "author": "Gustavo Marin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IGZgustavomarin/passport-fitbit-oauth2/issues"
+    "url": "https://github.com/thegameofcode/passport-fitbit-oauth2/issues"
   },
-  "homepage": "https://github.com/IGZgustavomarin/passport-fitbit-oauth2#readme"
+  "homepage": "https://github.com/thegameofcode/passport-fitbit-oauth2#readme"
 }
