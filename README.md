@@ -21,7 +21,7 @@ accepts these credentials and calls `done` providing a user, as well as
 ```
 var FitbitStrategy = require( 'passport-fitbit-oauth2' ).Strategy;
 
-passport.use(new FibitStrategy({
+passport.use(new FitbitStrategy({
     clientID:     FITBIT_CLIENT_ID,
     clientSecret: FITBIT_CLIENT_SECRET,
     callbackURL: "http://yourdormain:3000/auth/fitbit/callback"
