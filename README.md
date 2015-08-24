@@ -19,7 +19,7 @@ accepts these credentials and calls `done` providing a user, as well as
 `options` specifying a client ID, client secret, and callback URL.
 
 ```
-var FitbitStrategy = require( 'passport-fitbit-oauth2' ).Strategy;
+var FitbitStrategy = require( 'passport-fitbit-oauth2' ).FitbitOAuth2Strategy;;
 
 passport.use(new FitbitStrategy({
     clientID:     FITBIT_CLIENT_ID,
