@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "description": "An OAuth2 passport strategy for Fitbit",
   "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js",
+    "cover": "./node_modules/.bin/istanbul cover --preserve-comments ./node_modules/.bin/_mocha -- --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
   "directories": {
     "example": "examples"
   },
   "dependencies": {
     "passport-oauth2": "^1.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-passport-strategy": "^1.0.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thegameofcode/passport-fitbit-oauth2.git"
