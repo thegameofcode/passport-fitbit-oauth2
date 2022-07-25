@@ -44,7 +44,10 @@ application:
 
 ```
 app.get('/auth/fitbit',
-  passport.authenticate('fitbit', { scope: ['activity','heartrate','location','profile'] }
+  passport.authenticate('fitbit', { 
+        scope: ['activity','heartrate','location','profile'],
+        prompt: 'login' //or 'consent' or 'login consent' or 'none'
+      }
 ));
 
 app.get( '/auth/fitbit/callback', passport.authenticate( 'fitbit', { 
